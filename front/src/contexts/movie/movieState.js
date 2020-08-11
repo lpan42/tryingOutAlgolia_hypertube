@@ -36,7 +36,7 @@ const MovieState = (props) => {
         });
       })
       .catch((err) => {
-        console.log(err.message;
+        console.log(err.message);
       });
   };
 
