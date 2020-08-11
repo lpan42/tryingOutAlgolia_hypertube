@@ -23,7 +23,6 @@ const MovieState = (props) => {
   const [state, dispatch] = useReducer(MovieReducer, initialState);
 
   const searchAlgolia = async (searchInput) => {
-    // console.log(searchInput);
     const algolia = algoliasearch(
       "PAF79OZ5S1",
       "be20e748c1a734273de8aca27d4271f0"
