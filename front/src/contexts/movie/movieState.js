@@ -24,20 +24,21 @@ const MovieState = (props) => {
 
   const searchAlgolia = async (searchInput) => {
     const algolia = algoliasearch(
-      "PAF79OZ5S1",
-      "be20e748c1a734273de8aca27d4271f0"
-    ).initIndex("hypertube_movie_db");
-    algolia
-      .search(searchInput)
-      .then(({ hits }) => {
-        dispatch({
-          type: FETCH_MOVIES,
-          payload: hits,
-        });
-      })
-      .catch((err) => {
-        console.log(err.message);
+      "JMTNZZLDZ9",
+      "c3de62a395cab0ce32181ac24fa2ddda"
+    ).initIndex("Hypertube");
+    try {
+      const result = await algolia.search(searchInput);
+      dispatch({
+        type: FETCH_MOVIES,
+        payload: result.hits,
       });
+    } catch (error) {
+      dispatch({
+        type: FETCH_ERROR,
+        payload: err.message,
+      });
+    }
   };
 
   const searchPopularMovie = async (movieTitle) => {
