@@ -1,0 +1,77 @@
+{
+    "header" : {
+        "logout" : "logout"
+    },
+    "account" : {
+        "myaccount" : "My Account",
+        "edit": "Edit",
+        "username" : "Username",
+        "email" : "Email",
+        "firstname" : "Firstname",
+        "lastname" : "Lastname",
+        "language" : "Language",
+        "useraccount" : "User Account",
+        "editmyaccount" : "Edit My Account",
+        "upload" : "Upload",
+        "confirm" : "Confirm",
+        "watchlaterlist": "WatchLater List",
+        "moviewatched": "Movies Watched"
+    },
+    "movie" : {
+        "imdbrating" : "IMDb Rating",
+        "country" : "Country",
+        "director" : "Director",
+        "actors" : "Actors",
+        "overview" : "Overview",
+        "addtowatchlater":"Add To WatchLater",
+        "removefromwatchlater":"Remove from WatchLater"
+    },
+    "comment" : {
+        "comments" : "Comments",
+        "leavecomment" : "Leave a Comment..."
+    },
+    "movietype" : {
+        "All": "All",
+        "Action" : "Action",
+        "Adventure" : "Adventure",
+        "Animation" : "Animation",
+        "Biography" : "Biography",
+        "Comedy" : "Comedy",
+        "Crime"	: "Crime",
+        "Documentary" : "Documentary",
+        "Drama" : "Drama",
+        "Family" : "Family",
+        "Fantasy" : "Fantasy",
+        "FilmNoir" : "Film Noir",
+        "History" : "History",
+        "Horror" : "Horror",
+        "Music" : "Music",
+        "Musical" : "Musical",
+        "Mystery" :"Mystery",
+        "Romance" : "Romance",
+        "SciFi" : "Sci-Fi",
+        "ShortFilm" : "Short Film",
+        "Sport" : "Sport",
+        "Thriller" : "Thriller",
+        "War" : "War",
+        "Western" : "Western"
+    },
+    "filter" : {
+        "filter" : "Filters",
+        "year" : "Year",
+        "genres" : "Genres",
+        "releasedate" : "Release Date",
+        "from" : "from",
+        "to" : "to",
+        "rating" : "Rating",
+        "searchforamovie" : "Search for a film...",
+        "sort" : "Sort Results By",
+        "search" : "Search"
+    },
+    "sortby" : {
+        "ImdbRating" : "ImdbRating",
+        "Title" : "Title",
+        "DateAsc" : "DateAsc",
+        "DateDsc" : "DateDsc"
+    }
+}

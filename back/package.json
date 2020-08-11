@@ -1,0 +1,60 @@
+{
+  "name": "hypertube",
+  "version": "1.0.0",
+  "description": "3rd Project of web branch @42Paris",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon --exec npx babel-node src/index.js",
+    "front": "cd ../front && npm start",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run front\""
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "algoliasearch": "^4.3.1",
+    "axios": "^0.19.2",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cloudflare-scraper": "^0.1.5",
+    "crypto": "^1.0.1",
+    "del": "^5.1.0",
+    "download": "^8.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-session": "^1.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.16",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4",
+    "opensubtitles-api": "^5.1.2",
+    "passport": "^0.4.1",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "passport-oauth2": "^1.5.0",
+    "request": "^2.88.2",
+    "torrent-stream": "^1.2.0",
+    "uuid": "^8.1.0"
+  },
+  "author": "lpan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "concurrently": "^5.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

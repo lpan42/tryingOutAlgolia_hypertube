@@ -1,0 +1,77 @@
+{
+    "header": {
+        "logout" : "Se déconnecter"
+    },
+    "account" : {
+        "myaccount" : "Mon Compte",
+        "edit": "Éditer",
+        "username" : "Pseudo",
+        "email" : "Email",
+        "firstname" : "Prénom",
+        "lastname" : "Nom",
+        "language" : "Langue",
+        "useraccount" : "Compte d'utilisateur",
+        "editmyaccount" : "Modifier mon compte",
+        "upload" : "Télécharger",
+        "confirm" : "Confirmer",
+        "watchlaterlist": "A Regarder Plus Tard",
+        "moviewatched": "Films Regardés"
+    },
+    "movie" : {
+        "imdbrating" : "IMDb Évaluation",
+        "country" : "Pays",
+        "director" : "Réalisateur",
+        "actors" : "Acteurs",
+        "overview" : "Présentation",
+        "addtowatchlater":"A Regarder Plus Tard",
+        "removefromwatchlater":"Supprimer de A Regarder Plus Tard"
+    },
+    "comment" : {
+        "comments" : "Commentaires",
+        "leavecomment" : "laissez un commentaire..."
+    },
+    "movietype" : {
+        "All" : "Tous",
+        "Action" : "Action",
+        "Adventure" : "Aventure",
+        "Animation" : "Animation",
+        "Biography" : "Biopic",
+        "Comedy" : "Comédie",
+        "Crime"	: "Crime",
+        "Documentary" : "Documentaire",
+        "Drama" : "Drame",
+        "Family" : "Famille",
+        "Fantasy" : "Fantastique",
+        "FilmNoir" : "Film Noir",
+        "History" : "Historique",
+        "Horror" : "Horreur",
+        "Music" : "Music",
+        "Musical" : "Musical",
+        "Mystery" :"Mystère",
+        "Romance" : "Romance",
+        "SciFi" : "Sci-Fi",
+        "ShortFilm" : "Court Métrage",
+        "Sport" : "Sport",
+        "Thriller" : "Thriller",
+        "War" : "Guerre",
+        "Western" : "Western"
+    },
+    "filter" : {
+        "filter" : "Filtres",
+        "year" : "Année",
+        "genres" : "Genres",
+        "releasedate" : "Date de sortie",
+        "from" : "du",
+        "to" : "au",
+        "rating" : "Rating",
+        "searchforamovie" : "Rechercher un film...",
+        "sort" : "Trier les résultats par",
+        "search" : "Rechercher"
+    },
+    "sortby" : {
+        "ImdbRating" : "ImdbNote",
+        "Title" : "Titre",
+        "DateAsc" : "DateAsc",
+        "DateDsc" : "DateDsc"
+    }
+}
